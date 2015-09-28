@@ -1,0 +1,193 @@
+/************
+  BUTTONS
+*************/
+
+.ghost-light{
+  background: none;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  outline: none;
+}
+
+.ghost-light:hover{
+  background: white;
+  color: gray;
+}
+
+.ghost-light:focus{
+  background: white;
+  color: whitesmoke;
+}
+
+.ghost-light:active{
+  opacity: 0.85;
+}
+
+.ghost-dark{
+  background: none;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.ghost-dark:hover{
+  background: black;
+  color: white;
+}
+
+.ghost-dark:focus{
+  background: black;
+  color: white;
+}
+
+.ghost-dark:active{
+  opacity: 0.85;
+}
+
+.ghost-color{
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #2AE877;
+  color: #2AE877;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.ghost-color:hover{
+  background: #2AE877;
+  color: white;
+}
+
+.ghost-color:focus{
+  background: #2AE877;
+  color: white;
+}
+
+.ghost-color:active{
+  opacity: 0.85;
+}
+
+.ghost-color-main{
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #3694E2;
+  color: #3694E2;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.ghost-color-main:hover{
+  background: #3694E2;
+  color: white;
+}
+
+.ghost-color-main:focus{
+  background: #3694E2;
+  color: white;
+}
+
+.ghost-color-main:active{
+  opacity: 0.85;
+}
+
+.solid-btn{
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 4px;
+  border: 0px solid red;
+  width: 200px;
+  height: 30px;
+  color: #00B29A;
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.solid-btn:hover{
+  background: rgba(255, 255, 255, 1);
+}
+
+.solid-btn:active{
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.size-bar{
+  display: table;
+}
+
+.size-btn{
+  display: inline-block;
+  background: none;
+  padding: 10px;
+  font-size: 30px;
+  border: 2px solid #00B29A;
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.size-btn:hover{
+  background: #00B29A;
+}
+
+.colonia{
+  display: inline-block;
+  padding: 15px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.colonia:hover{
+  background: rgba(255, 255, 255, 0.9);
+  color: #00B29A;
+}
+
+/************
+  DIVS
+*************/
+
+.container{
+  padding: 0px 15% 0px 15%;
+}
+
+.hr{
+  border: 1px solid red;
+}
+
+/************
+  LOGOS
+*************/
+
+.allies{
+  max-height: 70px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+.allies img{
+  width: 100%;
+}
+
+.allies:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+
+.quote{
+  font-family: "Bitter";
+  color: #f00;
+  font-size: 25px;
+}

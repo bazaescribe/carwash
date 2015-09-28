@@ -1,0 +1,166 @@
+/************
+  FONTS
+*************/
+
+/*
+@font-face {
+    font-family: Nova;
+    src: url(proxima-nova/ProximaNova-Regular.otf);
+	font-weight: normal;
+}
+
+@font-face {
+    font-family: Nova;
+    src: url(proxima-nova/ProximaNova-Bold.otf);
+	font-weight: bold;
+}
+
+@font-face {
+    font-family: Nova;
+    src: url(proxima-nova/ProximaNova-Light.otf);
+	font-weight: lighter;
+}
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,600,800);
+
+body{
+  font-family: "Raleway";
+}
+
+.quote{
+  font-family: "Bitter";
+}
+
+/************
+  FONT VARIANTS
+*************/
+
+.bold{
+  font-weight: bold;
+}
+
+.regular{
+  font-weight: normal;
+}
+
+.light{
+  font-weight: lighter;
+}
+
+/************
+  COLOR
+*************/
+
+.reg-txt{
+  color: #434343;
+}
+
+.soft-txt{
+  color: #A2A2A2;
+}
+
+.white-txt{
+  color: white;
+}
+
+.alt-txt{
+  color: #3694E2;
+}
+
+.hv-txt{
+  color: #2AE877 !important;
+}
+
+.selected{
+  color: #8D8D8D !important;
+}
+
+.third-txt{
+  color: #5B42E6 !important;
+}
+
+/************
+  TEXT-ALIGN
+*************/
+
+.center{
+  text-align: center !important;
+}
+
+.left{
+  text-align: left !important;
+}
+
+.right{
+  text-align: right !important;
+}
+
+.justify{
+  text-align: justify !important;
+}
+
+/************
+  TITLES
+*************/
+
+h1{
+  font-size: 65px;
+  margin: 5px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+h2{
+  font-size: 60px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h3{
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h4{
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h5{
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h6{
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.FooterTitle{
+  font-weight: ligther;
+  color: white;
+}
+
+/************
+  LISTS
+*************/
+
+.footer li{
+  padding-left:0;
+  margin: 10px 0px 10px -40px;
+  list-style-type: none;
+}
+
+.footer a:link{
+  color: #a2a2a2;
+  font-weight: lighter;
+  text-decoration: none;
+}
+.footer a:visited {
+    color: #a2a2a2;
+}

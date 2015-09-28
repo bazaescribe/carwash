@@ -1,0 +1,19 @@
+ .animation-one{
+   -webkit-animation-delay: 0.5s;
+ }
+
+ .animation-two{
+   -webkit-animation-delay: 1s;
+ }
+
+ .animation-three{
+   -webkit-animation-delay: 1.5s;
+ }
+
+ .animation-four{
+   -webkit-animation-delay: 2s;
+ }
+
+ .animation-five{
+   -webkit-animation-delay: 2.5s;
+ }
