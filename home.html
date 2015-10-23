@@ -50,25 +50,11 @@
       <div class="menu" id="main-menu" onmouseout="">
         <a href="nosotros.html" class="m-item" onmouseover="">
           <span>
-            INICIO
+            FAQ
           </span>
-        </a>
-        <a href="nosotros.html" class="m-item" onmouseover="">
+        </a><a href="register.html" class="m-item-main" onmouseover="">
           <span>
-            COMO FUNCIONA
-          </span>
-        </a>
-        <a href="nosotros.html" class="m-item" onmouseover="">
-          <span>
-            PRECIOS
-          </span>
-        </a><a href="nosotros.html" class="m-item" onmouseover="">
-          <span>
-            HOLA
-          </span>
-        </a><a href="nosotros.html" class="m-item-main" onmouseover="">
-          <span>
-            TRABAJA
+            TRABAJA CON NOSOTROS
           </span>
         </a>
       </div>
@@ -202,11 +188,11 @@
     </div>
 
     <div class="row pad-50 center white-txt neutral-40">
-      <div class="cell wow fadeInLeft" style="width: 500px;">
-        <img src="res/img/elmts/cars/s.png" alt="" style="width: 100%; margin-top: 0px;"/>
+      <div class="cell wow fadeInLeft car-image-container" style="width: 500px;" id="car-image">
+        <img src="res/img/elmts/cars/s.png" alt=""/>
       </div>
       <div class="cell left wow fadeIn" style="max-width: 300px;">
-        <h5>Lavamos tu auto chico desde $40.</h5>
+        <h5>Lavamos tu auto <span id="car-size">chico</span> desde $<span id="car-price">40</span></h5>
         <br>
         <div class="justify">
           El servicio incluye:
@@ -220,16 +206,16 @@
         </div>
         <br>
         <div class="size-bar">
-          <div class="size-btn left-side">
+          <div class="size-btn buttonactive button" onclick="toggle(0)">
             S
           </div>
-          <div class="size-btn">
+          <div class="size-btn button" onclick="toggle(1)">
             M
           </div>
-          <div class="size-btn">
+          <div class="size-btn button" onclick="toggle(2)">
             L
           </div>
-          <div class="size-btn right-side">
+          <div class="size-btn button" onclick="toggle(3)">
             XL
           </div>
         </div>
@@ -322,9 +308,16 @@
       </div>
 
     <script type="text/javascript">
-    $(document).ready(function() {
-      $('#f').scrollToFixed({ limit: 1700, zIndex: 3});
-    });
+      $(document).ready(function() {
+        $('#f').scrollToFixed({ limit: 1700, zIndex: 3});
+      });
+    </script>
+
+    <script type="text/javascript">
+      $('.button').click(function() {
+        $('.button').not(this).removeClass('buttonactive'); // remove buttonactive from the others
+        $(this).toggleClass('buttonactive'); // toggle current clicked element
+      });
     </script>
 
 

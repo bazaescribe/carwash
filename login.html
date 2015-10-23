@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Car Wash</title>
+
+    <link rel="stylesheet" type="text/css" href="res/css/color.css">
+    <link rel="stylesheet" type="text/css" href="res/css/text.css">
+    <link rel="stylesheet" type="text/css" href="res/css/structure.css">
+    <link rel="stylesheet" type="text/css" href="res/css/elements.css">
+
+    <link rel="stylesheet" type="text/css" href="res/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="res/css/animconfig.css">
+    <link rel="stylesheet" href="res/font-awesome/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="res/js/parallax.js"></script>
+    <script type="text/javascript" src="res/js/wow.js"></script>
+    <script type="text/javascript" src="res/js/jquery-scrolltofixed-min.js"></script>
+
+    <script type="text/javascript" src="res/js/menu.js"></script>
+
+  </head>
+
+  <body onscroll="scrollChange()">
+
+    <header class="center" style="font-size: 20px;" id="menuBar">
+
+      <div class="logo">
+        <div class="logo-item">
+          <a href="home.html">
+            <img src="res/img/elmts/logo.png" alt="" id="logo"/>
+          </a>
+        </div>
+      </div>
+
+      <div class="menu" id="main-menu" onmouseout="">
+        <a href="register.html" class="m-item-main" onmouseover="">
+          <span>
+            Inicia Sesión
+          </span>
+        </a>
+      </div>
+    </header>
+
+    <div class="cover parallax-window" data-parallax="scroll" data-image-src="res/img/elmts/mapbg.jpg">
+      <div>
+        Hola
+      </div>
+    </div>
+
+    <div class="cover parallax-window" data-parallax="scroll" data-image-src="res/img/elmts/mapbg.jpg">
+      <div class="cell pad-30" style="height: 100%; margin: 0 auto;">
+        <form class="card" action="index.html" method="post">
+          <h6 class="reg-txt">Inicia Sesión</h6>
+          <br>
+          <input type="text" class="text-input-register" id="" placeholder="Nombre completo" name="name" value="">
+          <input type="text" class="text-input-register" id="" placeholder="Correo Electrónico" name="mail" value="">
+          <input type="text" class="text-input-register" id="" placeholder="Teléfono" name="phone" value="">
+          <input type="text" class="text-input-register" id="" placeholder="¿Cómo supiste de nosotros?" name="name" value="">
+          <br><br>
+          <input type="button" name="name" value="Enviar" class="register-btn">
+        </form>
+      </div>
+      <div class="" style="">
+
+      </div>
+    </div>
+
+    <div class="footer">
+
+      <!--Sup footer-->
+      <div class="row pad-30 center soft-txt neutral-50">
+        <div class="left">
+          <div class="cell left">
+            Made with <i class="fa fa-heart hv-txt"></i> by <a href="#">Red Wolf</a>
+            <br><br>
+            © 2015 Todos los Derechos Reservados.
+          </div>
+        </div>
+      </div>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#f').scrollToFixed({ limit: 1700, zIndex: 3});
+    });
+    </script>
+
+
+
+    <script>
+     new WOW().init();
+    </script>
+
+  </body>
+</html>

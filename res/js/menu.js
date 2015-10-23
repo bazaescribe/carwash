@@ -17,22 +17,6 @@ function scrollChange(){
   }
 }
 
-function init() {
-    window.addEventListener('scroll', function(e){
-        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            shrinkOn = 300,
-            header = document.querySelector("#menuBar");
-        if (distanceY > shrinkOn) {
-            classie.add(header,"smaller");
-        } else {
-            if (classie.has(header,"smaller")) {
-                classie.remove(header,"smaller");
-            }
-        }
-    });
-}
-window.onload = init();
-
 function scrollMenu(){
   var doc = document.documentElement;
   var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
@@ -49,4 +33,35 @@ function scrollMenu(){
   }
 }
 
-//$(menu).animate({left: "-=300px"}, 300);
+function toggle(size){
+  var sizes = [
+      {
+        "size":"chico",
+        "price":"40",
+        "acronim":"s"
+      },
+      {
+        "size":"mediano",
+        "price":"45",
+        "acronim":"m"
+      },
+      {
+        "size":"grande",
+        "price":"50",
+        "acronim":"l"
+      },
+      {
+        "size":"más grande",
+        "price":"55",
+        "acronim":"xl"
+      },
+  ];
+
+  var carSize = sizes[size].size;
+  var carPrice = sizes[size].price;
+  var carImage = "<img src='res/img/elmts/cars/" + sizes[size].acronim + ".png' alt='carro"+ sizes[size].acronim +"'/>";
+
+  document.getElementById('car-size').textContent = carSize;
+  document.getElementById('car-price').textContent = carPrice;
+  document.getElementById('car-image').innerHTML = carImage;
+}

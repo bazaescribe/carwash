@@ -119,6 +119,8 @@
   display: table;
 }
 
+
+
 .size-btn{
   display: inline-block;
   background: none;
@@ -133,6 +135,10 @@
 }
 
 .size-btn:hover{
+  background: #00B29A;
+}
+
+.buttonactive{
   background: #00B29A;
 }
 
@@ -163,6 +169,11 @@
   border: 1px solid red;
 }
 
+.car-image-container img{
+  width: 100%;
+  top: 0px;
+}
+
 /************
   LOGOS
 *************/
@@ -184,10 +195,41 @@
   opacity: 1;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Bitter:400,700);
+.card{
+  background: #EAEAEA;
+  padding: 15px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
 
-.quote{
-  font-family: "Bitter";
-  color: #f00;
-  font-size: 25px;
+.text-input-register{
+  background: white;
+  width: 100%;
+  font-size: 15px;
+  padding: 8px;
+  border: 1px solid #C2C2C2;
+  border-radius: 3px;
+  outline: none;
+  margin: 5px 0px 5px 0px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.text-input-register:focus{
+  border: 1px solid #00B29A;
+}
+
+.register-btn{
+  background: #00B29A;
+  color: white;
+  border: 0px solid #fff;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px;
+  outline: none;
+}
+
+.register-btn:hover{
+  opacity: 0.9;
 }

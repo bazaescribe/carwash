@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Car Wash</title>
+
+    <link rel="stylesheet" type="text/css" href="res/css/color.css">
+    <link rel="stylesheet" type="text/css" href="res/css/text.css">
+    <link rel="stylesheet" type="text/css" href="res/css/structure.css">
+    <link rel="stylesheet" type="text/css" href="res/css/elements.css">
+
+    <link rel="stylesheet" type="text/css" href="res/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="res/css/animconfig.css">
+    <link rel="stylesheet" href="res/font-awesome/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script type="text/javascript" src="res/js/parallax.js"></script>
+    <script type="text/javascript" src="res/js/wow.js"></script>
+    <script type="text/javascript" src="res/js/jquery-scrolltofixed-min.js"></script>
+
+    <script type="text/javascript" src="res/js/menu.js"></script>
+
+  </head>
+
+  <body onscroll="scrollChange()">
+
+    <header class="center" style="font-size: 20px;" id="menuBar">
+
+      <div class="logo">
+        <div class="logo-item">
+          <a href="home.html">
+            <img src="res/img/elmts/logo.png" alt="" id="logo"/>
+          </a>
+        </div>
+      </div>
+
+      <div class="menu" id="main-menu" onmouseout="">
+        <a href="login.html" class="m-item-main" onmouseover="">
+          <span>
+            Inicia Sesión
+          </span>
+        </a>
+      </div>
+    </header>
+
+    <div class="cover parallax-window" data-parallax="scroll" data-image-src="res/img/elmts/bluecar.jpg">
+      <div class="container" style="display: table; height: 100%;">
+        <div class="mids" style="display: table-cell; vertical-align: middle; padding: 15px;">
+          <h5>Necesitamos gente <br> como tú.</h5>
+          <p style="background: rgba(0, 0, 0, 0.7); padding: 15px; border-radius: 8px;">
+            Tiempo completo o en tus ratos libres y sin importar tu edad.
+            <br><br>
+            En Carwash estamos convencidos de que las personas son lo más importante de nuestro servicio, aplica ahora y conviértete en lavador sin invertir y con la posibilidad de aumentar tus ingresos.
+          </p>
+        </div><!--
+        --><div class="mids" style="display: table-cell; vertical-align: middle; padding: 15px;">
+          <form class="card" action="index.html" method="post">
+            <h6 class="reg-txt">Regístrate</h6>
+            <br>
+            <input type="text" class="text-input-register" id="" placeholder="Nombre completo" name="name" value="">
+            <input type="text" class="text-input-register" id="" placeholder="Correo Electrónico" name="mail" value="">
+            <input type="text" class="text-input-register" id="" placeholder="Teléfono" name="phone" value="">
+            <input type="text" class="text-input-register" id="" placeholder="¿Cómo supiste de nosotros?" name="name" value="">
+            <br><br>
+            <input type="button" name="name" value="Enviar" class="register-btn">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pad-50 center reg-txt neutral-10">
+      <div class="cell mar-10">
+        <div class="center feature" style="">
+          <div class="f-title">
+            Gana Dinero
+          </div>
+          <br>
+          <div class="circle white-txt wow zoomIn">
+            <i class="fa fa-money fa-4x"></i>
+          </div>
+          <br>
+          <div class="f-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+
+      <div class="cell mar-10">
+        <div class="center feature" style="">
+          <div class="f-title">
+            Fácil
+          </div>
+          <br>
+          <div class="circle white-txt wow zoomIn">
+            <i class="fa fa-hand-peace-o fa-4x"></i>
+          </div>
+          <br>
+          <div class="f-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+
+      <div class="cell mar-10">
+        <div class="center feature" style="">
+          <div class="f-title">
+            Seguro
+          </div>
+          <br>
+          <div class="circle white-txt wow zoomIn">
+            <i class="fa fa-check fa-4x"></i>
+          </div>
+          <br>
+          <div class="f-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+
+      <div class="cell mar-10">
+        <div class="center feature" style="">
+          <div class="f-title">
+            Flexible
+          </div>
+          <br>
+          <div class="circle white-txt wow zoomIn">
+            <i class="fa fa-chain-broken fa-4x"></i>
+          </div>
+          <br>
+          <div class="f-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+
+      <!--Sup footer-->
+      <div class="row pad-30 center soft-txt neutral-50">
+        <div class="left">
+          <div class="cell left">
+            Made with <i class="fa fa-heart hv-txt"></i> by <a href="#">Red Wolf</a>
+            <br><br>
+            © 2015 Todos los Derechos Reservados.
+          </div>
+        </div>
+      </div>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('#f').scrollToFixed({ limit: 1700, zIndex: 3});
+    });
+    </script>
+
+
+
+    <script>
+     new WOW().init();
+    </script>
+
+  </body>
+</html>
