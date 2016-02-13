@@ -126,7 +126,7 @@
   background: none;
   padding: 10px;
   font-size: 30px;
-  border: 2px solid #00B29A;
+  border: 2px solid #00BCD4;
   margin: 5px;
   width: 35px;
   height: 35px;
@@ -135,11 +135,11 @@
 }
 
 .size-btn:hover{
-  background: #00B29A;
+  background: #00BCD4;
 }
 
 .buttonactive{
-  background: #00B29A;
+  background: #00BCD4;
 }
 
 .colonia{
@@ -154,7 +154,7 @@
 
 .colonia:hover{
   background: rgba(255, 255, 255, 0.9);
-  color: #00B29A;
+  color: #FF7A00;
 }
 
 /************

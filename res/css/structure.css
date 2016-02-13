@@ -84,7 +84,7 @@ header.smaller{
   position: fixed;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 1);
   z-index: 6;
 }
 
@@ -247,6 +247,10 @@ header.smaller{
   overflow-x: hidden;
 }
 
+#caracteristhics{
+  background: #ECEFF1;
+}
+
 /************
   CELLS
 *************/
@@ -276,7 +280,7 @@ header.smaller{
 }
 
 .social-icon:hover{
-  background: #00B29A;
+  background: #00BCD4;
 }
 
 /************
@@ -302,7 +306,7 @@ header.smaller{
 }
 
 .store{
-  background: #00B29A;
+  background: #00BCD4;
   border-radius: 4px;
   padding: 15px;
   font-size: 25px;
@@ -361,7 +365,7 @@ header.smaller{
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: #00B29A;
+  background: #00BCD4;
   margin: 0 auto;
   display: table;
 }

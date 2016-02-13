@@ -6,7 +6,7 @@ function scrollChange(){
 
   if (distanceY > shrinkOn) {
     $("#menuBar").animate({ height:'60px'}, 0);
-    $("#menuBar").css('background', 'rgba(40, 40, 40, 0.95)');
+    $("#menuBar").css('background', 'rgba(255, 255, 255, 1)');
     $("#logo").animate({ height:'40px'}, 0);
   } else {
     if (headerSize < 101) {
