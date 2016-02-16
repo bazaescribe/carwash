@@ -280,7 +280,12 @@ header.smaller{
 }
 
 .social-icon:hover{
-  background: #00BCD4;
+  color: #00BCD4;
+}
+
+.step:hover{
+  background: #78909C;
+  color: white;
 }
 
 /************
@@ -341,7 +346,7 @@ header.smaller{
   margin: 50px;
 }
 
-.mids{
+.half{
   color: white;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -357,8 +362,15 @@ header.smaller{
   width: 33.33%;
 }
 
-.mids:hover{
+.half:hover{
   background-position: 0px -5px;
+}
+
+.quarter{
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  width: 25%;
 }
 
 .circle{

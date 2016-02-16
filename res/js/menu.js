@@ -7,12 +7,18 @@ function scrollChange(){
   if (distanceY > shrinkOn) {
     $("#menuBar").animate({ height:'60px'}, 0);
     $("#menuBar").css('background', 'rgba(255, 255, 255, 1)');
+    $("#menuBar").css('box-shadow', '0px 2px 5px rgba(0,0 ,0, 0.1)');
     $("#logo").animate({ height:'40px'}, 0);
+    $(".m-item-main").css('color','#FF7A00');
+    $(".m-item").css('color','#FF7A00');
   } else {
     if (headerSize < 101) {
       $("#menuBar").animate({ height:'100px'}, 0);
       $("#menuBar").css('background', 'rgba(0, 0, 0, 0)');
+      $("#menuBar").css('box-shadow', '0px 2px 2px rgba(255,0 ,0, 0)');
       $("#logo").animate({ height:'80px'}, 0);
+      $(".m-item-main").css('color','white');
+      $(".m-item").css('color','white');
     }
   }
 }
